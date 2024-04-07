@@ -9,7 +9,7 @@ Welcome to the eSewa Clone project! This project is an attempt to replicate the 
 
 ## **Demo**
 
-Experience the eSewa Clone project live by exploring our demo [here](https://ishachttri.github.io/esewa/).
+Experience the eSewa Clone project live by exploring our demo [here]().
  Please note that while the demo provides a static representation, it does not support actual transactions or user data storage.
 
 ![Macbook-Air-127 0 0 1 (6)](https://github.com/Ishachttri/esewa/assets/130915454/53e7f61d-c9b5-487a-87ce-6f6c52e8b494)
