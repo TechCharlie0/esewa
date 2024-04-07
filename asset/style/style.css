@@ -1,0 +1,590 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+}
+
+.left img {
+  width: 170px;
+}
+
+.center input {
+  width: 615px;
+  height: 45px;
+  border: 2px solid black;
+  border: none;
+}
+
+.center ::placeholder {
+  font-size: larger;
+  padding: 10px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  border: none;
+}
+
+.center button {
+  height: 45px;
+  width: 100px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 4px;
+  background-color: rgb(34, 214, 34);
+  border: none;
+}
+
+.center button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.right img {
+  width: 100px;
+  margin: 10px;
+}
+
+.navbar {
+  padding: 5px;
+  margin: 4px;
+}
+
+.navbar-left {
+  border-top: 0.5px solid rgb(165, 161, 161);
+  border-bottom: 0.5px solid rgb(170, 168, 168);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.navbar-left ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-left li {
+  margin: 9px;
+  padding: 10px;
+}
+
+.navbar-left li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-left li a:hover {
+  color: rgb(12, 224, 12);
+  cursor: pointer;
+}
+
+.navbar-right img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.navbar-right a {
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(12, 14, 12);
+  height: 400px;
+  color: white;
+}
+
+.right-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-1 span {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.right-1 img {
+  height: 70px;
+  width: 160px;
+}
+
+.right-1 p {
+  height: 50px;
+  width: 650px;
+  text-transform: capitalize;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.middle-1 p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 34px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.middle-1 ul {
+  list-style-type: none;
+}
+
+.middle-1 li {
+  margin: 9px;
+}
+
+.middle-1 ul a {
+  text-decoration: none;
+  font-weight: lighter;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  color: #fff;
+}
+
+.left-1 p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 34px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.left-1 ul {
+  list-style-type: none;
+  /* margin: 9px; */
+}
+
+.left-1 li {
+  margin: 9px;
+}
+
+.left-1 ul a {
+  text-decoration: none;
+  font-weight: lighter;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  color: #fff;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(31, 30, 30);
+  height: 21px;
+  padding: 13px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.aside-bar {
+  padding: 40px;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+}
+
+.post h4 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-weight: 545;
+  font-size: 30px;
+}
+
+.aside img {
+  height: 461px;
+  width: 685px;
+  border-radius: 5px;
+}
+
+.aside h4 {
+  height: 71px;
+  width: 750px;
+  font-weight: 550;
+  font-size: 27px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.paragraph h5 {
+  width: 730px;
+  font-weight: 380;
+  font-size: 15px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  line-height: 28px;
+}
+
+.paragraph p {
+  font-weight: 600;
+  display: inline-block;
+  color: rgb(56, 54, 54);
+}
+
+.image-1 img {
+  height: 280px;
+  width: 515px;
+  border-radius: 5px;
+}
+
+.image-1 h4 {
+  font-weight: 550;
+  font-size: 17px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+
+.paragraph-2 h6 {
+  font-weight: 380;
+  font-size: 15px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  line-height: 28px;
+  width: 515px;
+}
+
+.image-2 h4 {
+  font-weight: 550;
+  font-size: 15px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  margin: 7px;
+  width: 515px;
+}
+
+.paragraph-3 h6 {
+  font-weight: 380;
+  font-size: 15px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  line-height: 28px;
+  width: 515px;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.post button {
+  width: 120px;
+  height: 50px;
+  background-color: rgb(30, 207, 30);
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 68px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.post h4 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.middlee {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin: 20px; */
+}
+
+.leftt img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.betweenn img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.rightt img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.head-1 h3 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 250px;
+  width: 325px;
+}
+
+.head-1 p {
+  color: rgb(43, 44, 43);
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 500;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.head-2 h3 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 250px;
+  width: 325px;
+}
+
+.head-2 h3 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 250px;
+  width: 325px;
+}
+
+.head-2 p {
+  color: rgb(43, 44, 43);
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 500;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.head-3 h3 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 250px;
+  width: 325px;
+}
+
+.head-3 p {
+  color: rgb(43, 44, 43);
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 500;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.middlee-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-bottom: 30px; */
+}
+
+.leftt-1 img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.betweenn-1 img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.rightt-1 img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.headd-1 h3 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 250px;
+  width: 325px;
+}
+
+.headd-1 p {
+  color: rgb(43, 44, 43);
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 500;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.headd-2 h3 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 250px;
+  width: 325px;
+}
+
+.headd-2 h3 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 250px;
+  width: 350px;
+}
+
+.headd-2 p {
+  color: rgb(43, 44, 43);
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 500;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.headd-3 h3 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  height: 250px;
+  width: 325px;
+}
+
+.headd-3 p {
+  color: rgb(43, 44, 43);
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 500;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.postt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.postt button {
+  width: 120px;
+  height: 50px;
+  background-color: rgb(30, 207, 30);
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 68px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.postt h4 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.postt-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.postt-1 button {
+  width: 120px;
+  height: 50px;
+  background-color: rgb(30, 207, 30);
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 68px;
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+}
+
+.postt-1 h4 {
+  font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.middlee-2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.leftt-2 img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.betweenn-2 img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.rightt-2 img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer button {
+  width: 170px;
+  height: 50px;
+  margin: 10px 0px 60px 0px;
+  color: #fff;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: larger;
+  background-color: rgb(24, 204, 24);
+  border: none;
+}
+
+.leftt-1 img {
+  height: 210px;
+  width: 325px;
+  border-radius: 4px;
+}
