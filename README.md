@@ -1,7 +1,6 @@
 # **eSewa Clone**
 
-![eSewa Logo](https://github.com/Ishachttri/esewa/assets/130915454/90ec84de-7e62-4fa5-86cd-7c4705d8c810)
-
+![esewa_logo](https://github.com/TechCharlie0/esewa/assets/166296560/d008bbef-1f8d-417f-a027-496fa071762c)
 
 ## **Description**
 
@@ -9,12 +8,11 @@ Welcome to the eSewa Clone project! This project is an attempt to replicate the 
 
 ## **Demo**
 
-Experience the eSewa Clone project live by exploring our demo [here]().
+Experience the eSewa Clone project live by exploring our demo [here](https://techcharlie0.github.io/esewa/).
  Please note that while the demo provides a static representation, it does not support actual transactions or user data storage.
 
-![Macbook-Air-127 0 0 1 (6)](https://github.com/Ishachttri/esewa/assets/130915454/53e7f61d-c9b5-487a-87ce-6f6c52e8b494)
-![Macbook-Air-127 0 0 1 (7)](https://github.com/Ishachttri/esewa/assets/130915454/3035b16d-6a81-47b7-bfad-201e08cb06e4)
-![Macbook-Air-127 0 0 1 (8)](https://github.com/Ishachttri/esewa/assets/130915454/4321f108-f0dc-47b1-b843-941214ab003e)
+![Macbook-Air-127 0 0 1 (3)](https://github.com/TechCharlie0/esewa/assets/166296560/54e401f0-744c-4305-b47b-4a525b0d9e7c)
+
 
 ## **Technologies Used**
 
@@ -29,4 +27,4 @@ To run the eSewa Clone locally on your machine, follow these simple steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone (https://github.com/Ishachttri/esewa)
+   git clone https://github.com/TechCharlie0/esewa.git
